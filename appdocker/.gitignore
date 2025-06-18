@@ -1,0 +1,27 @@
+# Archivos de construcción de Maven
+/target/
+
+# Configs específicas de IDEs (opcional, si usan distintos editores)
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Docker (opcional, si generás cosas locales)
+/*.env
+docker-compose.override.yml
+**/.docker/
+
+# Archivos de control de OS o Git
+*.swp
+*~
